@@ -1,0 +1,9 @@
+{
+  "id": "project-02",
+  "title": "Enterprise CMS Solutions",
+  "description": "Architected comprehensive content management solutions using OpenText TeamSite for large-scale enterprise deployments with optimized performance and seamless integration.",
+  "technologies": ["OpenText TeamSite", "Java", "XSLT", "FTL", "Apache"],
+  "image": "project-02.png",
+  "link": "#projects",
+  "details": "Optimized application performance resulting in 40% improvement in deployment times. Implemented enterprise-grade features for content workflow automation and multi-language support."
+}

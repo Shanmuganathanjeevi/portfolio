@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build output
+dist/
+
+# Development files
+mnt/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment variables
+.env
+.env.local
+
+# Development documentation (optional - remove if you want these on GitHub)
+SETUP_GUIDE.md
+CUSTOMIZATION_GUIDE.md
+CONTENT_TEMPLATES.md
+portfolio_prompt.md
+PROJECT_SUMMARY.md
+README.md
