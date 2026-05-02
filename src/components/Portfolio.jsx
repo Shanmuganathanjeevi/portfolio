@@ -101,18 +101,14 @@ export default function Portfolio() {
     { name: 'React', color: 'bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-100' },
     { name: 'Node.js', color: 'bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-100' },
     { name: 'Kubernetes', color: 'bg-indigo-100 text-indigo-800 dark:bg-indigo-900 dark:text-indigo-100' },
-    { name: 'Docker', color: 'bg-cyan-100 text-cyan-700 dark:bg-cyan-900 dark:text-cyan-300' },
     { name: 'Python', color: 'bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-100' },
     { name: 'Docker', color: 'bg-cyan-100 text-cyan-800 dark:bg-cyan-900 dark:text-cyan-100' },
     { name: 'Redis', color: 'bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-100' },
     { name: 'Kafka', color: 'bg-slate-100 text-slate-800 dark:bg-slate-900 dark:text-slate-100' },
-    { name: 'MongoDB', color: 'bg-green-100 text-green-700 dark:bg-green-900 dark:text-green-300' },
-    { name: 'PostgreSQL', color: 'bg-blue-100 text-blue-700 dark:bg-blue-900 dark:text-blue-300' },
     { name: 'SpringBoot', color: 'bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-100' },
     { name: 'Solr', color: 'bg-amber-100 text-amber-800 dark:bg-amber-900 dark:text-amber-100' },
     { name: 'Agentic AI', color: 'bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-100' },
-    { name: 'AWS', color: 'bg-orange-100 text-orange-700 dark:bg-orange-900 dark:text-orange-300' },
-    { name: 'Microservices', color: 'bg-pink-100 text-pink-700 dark:bg-pink-900 dark:text-pink-300' }
+    { name: 'AWS', color: 'bg-orange-100 text-orange-700 dark:bg-orange-900 dark:text-orange-300' }
   ];
 
   return (
@@ -284,7 +280,7 @@ export default function Portfolio() {
                     <div className="absolute left-0 top-2 w-4 h-4 bg-blue-600 rounded-full md:left-0"></div>
                     
                     {/* Timeline line */}
-                    {index < experience.length - 1 && (
+                    {index < experience.length && (
                       <div className="absolute left-2 top-6 w-0.5 h-32 bg-gray-300 dark:bg-slate-700 md:left-2"></div>
                     )}
 
