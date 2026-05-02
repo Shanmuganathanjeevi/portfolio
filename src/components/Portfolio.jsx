@@ -501,7 +501,7 @@ export default function Portfolio() {
             <div className="grid md:grid-cols-2 gap-8">
               {/* Email */}
               <a
-                href="mailto:hello@example.com"
+                href="mailto:shanmuganathanjeevi@gmail.com"
                 className="flex items-center gap-4 p-6 bg-gray-50 dark:bg-slate-800 rounded-lg hover:shadow-lg dark:hover:shadow-slate-900 transition-all border border-gray-200 dark:border-slate-700"
               >
                 <div className="p-3 bg-blue-100 dark:bg-blue-900 rounded-lg">
@@ -509,13 +509,13 @@ export default function Portfolio() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900 dark:text-white">Email</h3>
-                  <p className="text-gray-600 dark:text-gray-400 text-sm">hello@example.com</p>
+                  <p className="text-gray-600 dark:text-gray-400 text-sm">shanmuganathanjeevi@gmail.com</p>
                 </div>
               </a>
 
               {/* LinkedIn */}
               <a
-                href="https://linkedin.com"
+                href="https://linkedin.com/in/shanmuganathanjeevi"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 p-6 bg-gray-50 dark:bg-slate-800 rounded-lg hover:shadow-lg dark:hover:shadow-slate-900 transition-all border border-gray-200 dark:border-slate-700"
@@ -538,7 +538,7 @@ export default function Portfolio() {
             <div className="grid md:grid-cols-3 gap-8 mb-8">
               <div>
                 <div className="text-2xl font-bold mb-4">SC</div>
-                <p className="text-gray-400">Software Consultant & Architect</p>
+                <p className="text-gray-400">Software Consultant & Aspiring Architect</p>
               </div>
 
               <div>
@@ -560,13 +560,13 @@ export default function Portfolio() {
               <div>
                 <h4 className="font-semibold mb-4">Social</h4>
                 <div className="flex gap-4">
-                  <a href="https://linkedin.com" className="text-gray-400 hover:text-white transition-colors">
+                  <a href="https://linkedin.com/in/shanmuganathanjeevi" className="text-gray-400 hover:text-white transition-colors" target="_blank" rel="noopener noreferrer">
                     <Linkedin size={20} />
                   </a>
-                  <a href="https://github.com" className="text-gray-400 hover:text-white transition-colors">
+                  <a href="https://github.com/shanmuganathanjeevi" className="text-gray-400 hover:text-white transition-colors" target="_blank" rel="noopener noreferrer">
                     <Github size={20} />
                   </a>
-                  <a href="mailto:hello@example.com" className="text-gray-400 hover:text-white transition-colors">
+                  <a href="mailto:shanmuganathanjeevi@gmail.com" className="text-gray-400 hover:text-white transition-colors">
                     <Mail size={20} />
                   </a>
                 </div>
@@ -574,7 +574,7 @@ export default function Portfolio() {
             </div>
 
             <div className="border-t border-gray-800 pt-8 text-center text-gray-400">
-              <p>© 2024 Software Consultant. All rights reserved.</p>
+              <p>© 2026 Shanmuganathan. All rights reserved.</p>
               <button
                 onClick={() => scrollToSection('home')}
                 className="mt-4 text-white hover:text-gray-300 transition-colors font-medium"
