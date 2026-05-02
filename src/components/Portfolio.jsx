@@ -240,7 +240,7 @@ export default function Portfolio() {
           <div className="container py-20">
             <div className="max-w-2xl">
               <h1 className="text-5xl md:text-6xl font-bold mb-6 text-gray-900 dark:text-white">
-                Software Consultant & Architect
+                Software Consultant
               </h1>
               <p className="text-xl text-gray-600 dark:text-gray-300 mb-4">
                 7 years of expertise in enterprise software, cloud infrastructure, and web development
