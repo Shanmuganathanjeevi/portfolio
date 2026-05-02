@@ -3,7 +3,7 @@
   "title": "Task Status Bot",
   "description": "Developed a conversational AI assistant that enables teams to quickly retrieve task status, deadlines, and blockers without dependency on team member availability.",
   "technologies": ["Python", "Flask", "Groq API", "ChromaDB", "Embeddings"],
-  "image": "static/img/project-04.png",
+  "image": "project-04.png",
   "link": "https://taskstatusbot.onrender.com/",
   "details": "Designed and implemented a lightweight AI-powered chat interface that allows users to query task-related information using natural language. Integrated embedding-based retrieval with ChromaDB to understand context and provide accurate responses on task status, deadlines, and blockers. Built with a zero-database approach, enabling easy deployment and seamless sharing across teams without authentication overhead."
 }
