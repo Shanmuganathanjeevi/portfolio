@@ -1,9 +1,0 @@
-{
-  "id": "project-01",
-  "title": "Enterprise AI-Powered File Manager",
-  "description": "Led end-to-end architectural decisions on an enterprise-grade file manager enhanced with AI capabilities for intelligent document processing and automated workflows.",
-  "technologies": ["Node.js", "Fastify", "React", "Kubernetes", "Agentic AI"],
-  "image": "project-01.png",
-  "link": "#projects",
-  "details": "Architected microservices using Fastify and Node.js with Kubernetes orchestration. Designed and implemented scalable solutions leveraging Agentic AI patterns for automating document processing and intelligent file categorization."
-}

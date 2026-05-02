@@ -1,9 +1,0 @@
-{
-  "id": "project-03",
-  "title": "Scalable Search Infrastructure",
-  "description": "Designed and implemented high-performance search infrastructure using Apache Solr for handling large datasets with advanced indexing and relevance tuning.",
-  "technologies": ["Apache Solr", "Java", "RESTful APIs", "JavaScript", "Git"],
-  "image": "project-03.png",
-  "link": "#projects",
-  "details": "Built full-stack web applications with Java backend and JavaScript frontend. Integrated third-party services and implemented RESTful APIs for seamless data interchange."
-}

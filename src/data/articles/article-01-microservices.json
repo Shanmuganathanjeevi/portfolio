@@ -1,9 +1,0 @@
-{
-  "id": "article-01",
-  "title": "Building Scalable Microservices with Node.js and Kubernetes",
-  "excerpt": "A comprehensive guide to architecting microservices using Node.js, Fastify, and Kubernetes orchestration for enterprise applications.",
-  "date": "2024-03-15",
-  "tags": ["Architecture", "Microservices", "Kubernetes", "Node.js"],
-  "content": "Coming soon...",
-  "status": "coming-soon"
-}
