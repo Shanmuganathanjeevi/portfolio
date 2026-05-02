@@ -53,36 +53,36 @@ export default function Portfolio() {
   const experience = [
     {
       title: 'Senior Software Consultant',
-      company: 'Opentext',
+      company: 'OpenText Corporation',
       duration: 'Aug-2022 - Present',
       achievements: [
-        'Led end-to-end architectural decisions on enterprise AI-powered file manager',
-        'Architected microservices using Fastify and Node.js with Kubernetes orchestration',
-        'Designed and implemented scalable solutions leveraging Agentic AI patterns'
+        'Developing enterprise file manager with AI-powered document management and search using Node.js/Fastify, React',
+        'Built comprehensive bulletin system with LSCS viewer; improved email delivery by 70% via batch SMTP',
+        'Architected multiple portal components and web applications maintaining shared architecture across clients'
       ],
-      technologies: ['Node.js', 'Fastify', 'React', 'Kubernetes', 'Agentic AI']
+      technologies: ['Node.js', 'Fastify', 'React', 'Kubernetes', 'Agentic AI', 'Architecture']
     },
     {
-      title: 'Enterprise Software Architect',
+      title: 'Programmer Analyst',
       company: 'Cognizant Technology Solutions',
       duration: 'Jan-2022 - Aug-2022',
       achievements: [
-        'Architected enterprise CMS solutions using OpenText TeamSite',
-        'Optimized application performance resulting in 40% improvement in deployment times',
-        'Mentored team of junior developers on enterprise software best practices'
+        'Led TeamSite platform upgrade and migration of legacy portal infrastructure to newer version',
+        'Executed complex migration activities transferring content and configurations with zero data loss',
+        'Contributed to environment configuration, deployment automation, and team onboarding'
       ],
-      technologies: ['Java', 'XSLT', 'FTL', 'Apache', 'TeamSite']
+      technologies: ['Java', 'XSLT', 'FTL', 'Apache', 'TeamSite', 'Migration', 'Platform Upgrade']
     },
     {
-      title: 'Full Stack Developer',
+      title:  'System Engineer',
       company: 'Tata Consultancy Services',
       duration: 'Apr-2019 - Jan-2022',
       achievements: [
-        'Built full-stack web applications with Java backend and JavaScript frontend',
-        'Implemented search infrastructure using Apache Solr for large datasets',
-        'Developed RESTful APIs and integrated third-party services'
+        'Developed features for Singapore Airlines official website using TeamSite CMS architecture',
+        'Demonstrated expertise in TeamSite architecture design, platform maintenance, and SDLC optimization',
+        'Collaborated with clients to gather requirements and deliver solutions exceeding expectations'
       ],
-      technologies: ['Java', 'JavaScript', 'Solr', 'Spring', 'Git']
+      technologies: ['TeamSite', 'Java', 'JavaScript', 'Solr', 'Spring', 'Git', 'E-commerce']
     }
   ];
 
@@ -101,13 +101,18 @@ export default function Portfolio() {
     { name: 'React', color: 'bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-100' },
     { name: 'Node.js', color: 'bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-100' },
     { name: 'Kubernetes', color: 'bg-indigo-100 text-indigo-800 dark:bg-indigo-900 dark:text-indigo-100' },
+    { name: 'Docker', color: 'bg-cyan-100 text-cyan-700 dark:bg-cyan-900 dark:text-cyan-300' },
     { name: 'Python', color: 'bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-100' },
     { name: 'Docker', color: 'bg-cyan-100 text-cyan-800 dark:bg-cyan-900 dark:text-cyan-100' },
     { name: 'Redis', color: 'bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-100' },
     { name: 'Kafka', color: 'bg-slate-100 text-slate-800 dark:bg-slate-900 dark:text-slate-100' },
+    { name: 'MongoDB', color: 'bg-green-100 text-green-700 dark:bg-green-900 dark:text-green-300' },
+    { name: 'PostgreSQL', color: 'bg-blue-100 text-blue-700 dark:bg-blue-900 dark:text-blue-300' },
     { name: 'SpringBoot', color: 'bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-100' },
     { name: 'Solr', color: 'bg-amber-100 text-amber-800 dark:bg-amber-900 dark:text-amber-100' },
-    { name: 'Agentic AI', color: 'bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-100' }
+    { name: 'Agentic AI', color: 'bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-100' },
+    { name: 'AWS', color: 'bg-orange-100 text-orange-700 dark:bg-orange-900 dark:text-orange-300' },
+    { name: 'Microservices', color: 'bg-pink-100 text-pink-700 dark:bg-pink-900 dark:text-pink-300' }
   ];
 
   return (
