@@ -396,7 +396,7 @@ export default function Portfolio() {
                   >
                     <div className="h-48 bg-gradient-to-br from-blue-400 to-teal-400 dark:from-blue-900 dark:to-teal-900 flex items-center justify-center">
                       {project.image ? (
-                        <img src={`/images/projects/${project.image}`} alt={project.title} className="w-full h-full object-cover" />
+                        <img src={`/portfolio/images/projects/${project.image}`} alt={project.title} className="w-full h-full object-cover" />
                       ) : (
                         <div className="text-center">
                           <div className="text-3xl font-bold text-white opacity-50">{project.id}</div>

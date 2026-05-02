@@ -1,0 +1,9 @@
+{
+  "id": "article-03",
+  "title": "Building a Smart Task Status Assistant: RAG in Action",
+  "excerpt": "How I built a conversational AI bot that helps teams access task information instantly using Retrieval-Augmented Generation, embeddings, and semantic search.",
+  "date": "2026-05-02",
+  "tags": ["RAG", "AI", "Conversational", "Production"],
+  "content": "Coming soon...",
+  "status": "published"
+}
