@@ -396,7 +396,7 @@ export default function Portfolio() {
                   >
                     <div className="h-48 bg-gradient-to-br from-blue-400 to-teal-400 dark:from-blue-900 dark:to-teal-900 flex items-center justify-center">
                       {project.image ? (
-                        <img src={`/images/projects/${project.image}`} alt={project.title} className="w-full h-full object-cover" />
+                        <img src={`/portfolio/images/projects/${project.image}`} alt={project.title} className="w-full h-full object-cover" />
                       ) : (
                         <div className="text-center">
                           <div className="text-3xl font-bold text-white opacity-50">{project.id}</div>
@@ -419,7 +419,7 @@ export default function Portfolio() {
                         ))}
                       </div>
                       {project.link && (
-                        <a href={project.link} className="flex items-center gap-2 text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 font-medium">
+                        <a href={project.link} target='_blank' rel='noopener noreferrer' className="flex items-center gap-2 text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 font-medium">
                           Learn More <ExternalLink size={16} />
                         </a>
                       )}
